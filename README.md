@@ -3,8 +3,8 @@
 
 Add battery power and LiPo charging to your Raspberry Pi projects.
 
-======
+======  
 
-
+![Battery On Board](https://raw.githubusercontent.com/NextThingCo/B.O.B./master/bob.jpg "B.O.B.")  
 
 
