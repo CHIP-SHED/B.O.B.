@@ -1,0 +1,29 @@
+BOB v0.6 ECO notes  #1
+
+R15  0.01 ohm needs the 1206 footprint for higher tolerance availability.
+
+Add another 0603 cap in parallel with C3 2.2uF. This is to add hi-freq filtering ie. a 0.1uF cap.  I noticed it helped 
+clean up the DC output.
+
+Change C8 & C11 to 220uF for boost circuit stability.  I would also go with a 1210 footprint, there is plenty of room for it.
+Reasong being availability is so much better, and so is thermal dissipation in a PWM application.   
+To note, in many applictions the tantalums are verboten because of their toxicity.   Some future investigation into 
+ceramic/electrolytic caps might be worthwhile. Lo- ESR etc.
+Something along these lines for now:
+http://www.digikey.com/product-detail/en/T491C227M006AT/399-3748-1-ND/819073
+
+
+Remove all inside pad trace bridging, and make ample external trace connection for easier hacking, also probably would even out
+the surface tension solder flow dynamics.
+
+Remove the internal polarity silksreens on JP1, JP2, JP3, JP7
+
+Make the QFN pads a bit longer for easier hand-fix & hackability
+
+Drill hole near charge connector is blocking the polarity marking on the top silk.
+
+
+
+
+
+

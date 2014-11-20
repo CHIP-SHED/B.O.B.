@@ -1,0 +1,49 @@
+QTY,Designator,Value,Device,Package,Mfg,Mfg P/N,Alt. Vendor Parts,Description,Datasheet
+1,PCB,"1.6mm FR4, 1oz Copper, ENIG","White mask, Blue Silkscreen",,,,,,
+1,C1,10uF,CAP1206-CAP,1206-CAP,Any/Generic,,,Min. 10V **X7R** Ceramic Capacitor,
+2,"C10, C19",4.7uF,CAP0603-CAP,0603-CAP,Any/Generic,,,Min. 10V X5R Ceramic Capacitor,
+1,C16,0.47uF,CAP0603-CAP,0603-CAP,Any/Generic,,,Min. 10V X5R Ceramic Capacitor,
+0,"C17, C18",DNP,CAP0603-CAP,0603-CAP,Any/Generic,,,Min. 10V X5R Ceramic Capacitor,
+1,C2,33nF,CAP0603-CAP,0603-CAP,Any/Generic,,,Min. 10V X5R Ceramic Capacitor,
+1,C3,2.2uF,CAP0603-CAP,0603-CAP,Any/Generic,,,Min. 10V **X7R** Ceramic Capacitor,
+7,"C4, C7, C12, C13, C14, C15, C20",0.1uF,CAP0603-CAP,0603-CAP,Any/Generic,,,Min. 10V X5R Ceramic Capacitor,
+1,C5,10uF,CAP0603-CAP,0603-CAP,Any/Generic,,,Min. 10V X5R Ceramic Capacitor,
+1,C6,1.0uF,CAP0603-CAP,0603-CAP,Any/Generic,,,Min. 10V X5R Ceramic Capacitor,
+2,"C8, C11",220uF,CAP1210-CAP,1210-CAP,Any/Generic,,,Min. 10V **X7R** Ceramic Capacitor,
+1,C9,1uF,CAP0603-CAP,0603-CAP,Any/Generic,,,Min. 10V X5R Ceramic Capacitor,
+1,D1,,DIODE-SMB,SMB,Any/Generic,,Any/Generic,"Min. 16V, 3A Diode",
+1,D2,"cyan or ""ice blue""",LED0603,0603-LED,Panasonic,LNJC36X8ARA1,Any/Generic (Cyan),Charge Complete LED,http://www.semicon.panasonic.co.jp/ds4/LNJC36X8ARA1_AEK_discon.pdf
+1,D4,pink,LED0603,0603-LED,Panasonic,LNJP12X8ARA,Any/Generic (Pink),Charging Status LED,http://www.semicon.panasonic.co.jp/ds4/LNJP12X8ARA_E.pdf
+1,J1,,"CONNECTOR_2x13_0.1"" VERT",PTH,Sullins,PPTC132LFBN-RC,Any/Generic,Raspberry Pi Pin Header,"http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-G.pdf"
+4,"J6, J8, J9, J10",,CONNECTOR_JST_2PIN-THM VERT,PTH,JST,B2B-PH-K-S,Any/Generic,2.0mm 2 position JST Socket,http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+2,"J5, J7",,CONNECTOR_TWIG-4P VERT,PTH,TE,440054-4,Any/Generic,"4 Pos Grove ""Twig"" Socket",http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=440054&DocType=Customer+Drawing&DocLang=English
+0,J2,DNP,CONNECTOR_M20LOCK_LONGPADS,DNP,DNP,,,"1x20 .100"" Pads",
+0,J3,DNP,CONNECTOR_PINHD-1X10,DNP,DNP,,Any/Generic,"1x10 .100"" Header",
+1,J4,,CONNECTOR_2.5mm_JST_EH_1x10 RA,PTH,JST,S10B-EH,Any/Generic,1x10 2.5mm Shrouded Header RA,http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+1,L1,6.8uH,INDUCTOR-CDRH124NP-6R8MC,SMT CDRH124,Sumida,,"Wurth, EPCOS, Coilcraft",4.9A 6.8µH Inductor,http://www.sumida.com/products/pdf/CDRH124.pdf
+1,Q1,IRF7319,IC-IRF7319,SO08-IRF,IR,IRF7319,Any/Generic,Dual N & P MOSFET IC,http://www.irf.com/product-info/datasheets/data/irf7319.pdf
+1,R1,300K,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+1,R10,180K,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+2,"R12, R28",46.4K,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+2,"R13, R29",10K,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+0,"R16, R17",DNP,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+2,"R14, R19",100R,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+4,"R22, R23, R25, R26",0R,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+1,R15,0.01R,RESISTOR01206-RES,1206-RES,Any/Generic,,Any/Generic,1/10W **1%** Resistor,
+1,R18,1.8M,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+2,"R2, R6",100K,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+1,R21,18.2K,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+2,"R3, R20",1K,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+1,R4,1.13K,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+2,"R5, R11",2K,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+1,R7,1M,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+2,"R24, R27",DNP,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+1,R8,1.18K,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+1,R9,560K,RESISTOR0603-RES,0603-RES,Any/Generic,,Any/Generic,1/10W 5% Resistor,
+1,SG1,,DEVICE-PS1240P02BT,PTH 12.2mm OD,TDK,PS1240P02BT,Any/Generic,3V 70dB Sounder,http://product.tdk.com/en/catalog/datasheets/ef532_ps.pdf
+0,SJ1,DNP,SOLDERJUMPER-CUTTABLETRACE,,N/A,,,,
+0,"SJ2, SJ4",DNP,SOLDERJUMPER-2WY-1&2CONN,,N/A,,,,
+0,"SJ3, SJ5",DNP,SOLDERJUMPER-2WY-2&3CONN,,N/A,,,,
+1,U1,TPS61032RSAR,IC-TPS61032RSAR,QFN16,TI,TPS61032,PLS ADVISE OPTIONS,5V 1A DC-DC Boost IC,http://www.ti.com/product/tps61032
+1,U2,BQ27510DRZT-G2,IC-BQ27510DRZT-G2,SON12,TI,BQ27510,PLS ADVISE OPTIONS,LiPo Gas Gauge IC,http://www.ti.com/lit/ds/symlink/bq27510-g2.pdf
+1,U3,BQ24075TRGTT,IC-BQ24075TRGTT,VQFN16,TI,BQ24075,PLS ADVISE OPTIONS,1.5A LiPo Charger IC,http://www.ti.com/lit/ds/slus937a/slus937a.pdf
